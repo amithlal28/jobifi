@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif ;
+	background-image: "xyz.jpg";
+}
+
+
+
+.container {
+	width: 1170px;
+	margin: auto;
+}
+
+
+
+header {
+	
+background-image: linear-gradient(#082032, #2C394B,#334756);
+	height: 100vh;
+}
+
+
+.nav {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+
+
+.nav li {
+	display: inline-block;
+}
+
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+.logo{
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+
+
+
+.logo{
+	position: fixed;
+	top: 0px;
+}
+.card1 {
+ position: absolute;
+ top:100px;
+ left:80px;
+ border-radius: 2%;
+ color: white;
+ font-size: 23px;
+ background-color: #fefefe;
+ background-image: linear-gradient(#393E46, #222831);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  height:70%;
+  text-align: center;
+}
+
+.pg{
+margin-left: 2em;
+margin-right: 2em;
+}
